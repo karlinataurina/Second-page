@@ -1,0 +1,345 @@
+:root {
+  --first: #d0bc97;
+  --second: #3c9fb6;
+  --third: #4a771a;
+  --fourth: #263630;
+  --fifth: #ffffff;
+  --sixth: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* REUSABLE STYLINGS START */
+body {
+  background-color: var(--first);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.main-heading,
+.main-heading2,
+.main-heading3 {
+  font-family: 'Concert One', cursive;
+}
+
+.main-heading:hover {
+  text-decoration: underline;
+}
+
+.main-heading2:hover {
+  text-decoration: underline;
+}
+
+.main-heading3:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: var(--fourth);
+  color: var(--first);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid var(--fourth);
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button:hover {
+  background-color: var(--third);
+  color: var(--sixth);
+  transition: all 0.5s;
+}
+
+.btn {
+  background-color: var(--fourth);
+  color: var(--first);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid var(--fourth);
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background-color: var(--third);
+  color: var(--sixth);
+  transition: all 0.5s;
+}
+
+dt {
+  text-transform: uppercase;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 5px;
+}
+/* REUSABLE STYLINGS  END */
+
+/* INTRO SLIDE START */
+.intro {
+  height: 60vh;
+  background: linear-gradient(rgba(208, 188, 151, 0.5), rgba(60, 159, 182, 0.5)), url("829868.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-description {
+  font-family: 'Concert One', cursive;
+  text-align: center;
+  font-size: 25px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* INTRO SLIDE END */
+
+/* INTRO SLIDE START 2*/
+.intro2 {
+  height: 1000px;
+  background: linear-gradient(rgba(208, 188, 151, 0.5), rgba(60, 159, 182, 0.5)),
+    url("dessert2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading2 {
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-description2 {
+  color: var(--fifth);
+  text-align: center;
+  font-size: 25px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* INTRO SLIDE END 2*/
+
+/* INTRO SLIDE START 3*/
+.intro3 {
+  height: 1000px;
+  background: linear-gradient(rgba(208, 188, 151, 0.5), rgba(60, 159, 182, 0.5)),
+    url("granola.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading3 {
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-description3 {
+  color: var(--fifth);
+  text-align: center;
+  font-size: 25px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.beginnings {
+  text-decoration: none;
+  color: var(--fifth);
+}
+
+.beginnings:hover {
+  cursor: pointer;
+}
+/* INTRO SLIDE END 3*/
+
+/* LEARN MORE START */
+.learn-more {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+/* LEARN MORE END */
+
+/* FAQ START */
+.faq {
+  background-color: var(--first);
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.question-container {
+  margin-bottom: 40px;
+}
+
+.question {
+  font-size: 25px;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.answer {
+  font-size: 20px;
+}
+
+li {
+  text-decoration: underline;
+}
+
+/* FAQ START */
+
+/* QUOTE START */
+.quote-container {
+  background-color: var(--first);
+  text-align: center;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.quote {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.russell {
+  color: var(--second);
+  text-decoration: none;
+}
+
+.russell:hover {
+  text-decoration: line-through;
+}
+
+/* QUOTE END */
+
+/* VIDEO START */
+.video-container {
+  background-color: var(--fourth);
+
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-heading {
+  position: relative;
+  top: 430px;
+  color: var(--second);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.video-frame {
+  border: 0px;
+}
+/* VIDEO END */
+
+/* Footer */
+#footer {
+  font-family: 'Concert One', cursive;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--fourth);
+  color: var(--first);
+  text-align: center;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin: 3px;
+}
+
+/* Media */
+
+@media (max-width: 1300px) {
+  .intro2 {
+    height: 1000px;
+  }
+
+  .intro3 {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .intro2 {
+    height: 1000px;
+  }
+
+  .intro3 {
+    height: 1000px;
+  }
+}
+
+@media (max-height: 897px) {
+  .intro {
+    height: 600px;
+  }
+
+  .intro2 {
+    height: 800px;
+  }
+
+  .intro3 {
+    height: 600px;
+  }
+}
